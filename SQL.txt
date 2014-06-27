@@ -1,0 +1,6 @@
+select#selects column rows from which to query by#select example (says query in the row example)
+select*#selects all columns from designated table to query by#select* | from example (selects all columns from example)
+select count (x)#counts all rows in the x column that match the query#select count (1) (counts rows in row 1)
+from#designates which table this query is coming from#from example (comes from the example table)
+where#filters results to specified needs#where example_year='2014' (only shows when the year is 2014)
+order by#orders query results#order by example_type, example_date (first orders by type then by date)

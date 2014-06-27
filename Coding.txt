@@ -1,0 +1,45 @@
+Double Slashes (//)*Used to denote a comment.*//This is a comment.
+Semicolon (;)*Marks end of a statement.*// int a;
+Stream Extraction Operator (>>)*Assigns an input from the console to a variable.*cin >> example
+Stream Insertion Operator (<<)*Outputs a variable to the console.*cout << example
+const*Used in declaring a variable that remains constant.*const ISIZE=5
+Namespace*A mechanism to avoid naming conflicts in a large program.*using namespace std
+Assignment operator*Used to assign a value to a variable.*x=1
+short int*Used for shorther integer variables (16 bit)*short int x
+unsigned int*used for unsigned integers (32 bit)*unsigned int x
+int*used for integer values (32 bit)*int x
+long int*used for longer integer values (32 bit)*long int x
+float*data type with a precision of 7 digits able to use decimals (32 bit)*float example
+double*data type able to use decimals with 15 digits of precision (64 bit)* double example
+long double*data type with decimal capabilities and 19 digits of precision (80 bit)*long double example
+Modulus (%)*returns remainder*4 % 3 = 1
+Augment Assignment Operators*Uses left hand value and modifies it with right hand value (last in order of operations)*i+=2 (i=i+2)
+Preincrement Operator*Augments the variable and uses new value in statement.*++example | example=0 | 1+(++example)=2 | example=1
+Postincrement Operator*Passes variable value to statement then augments the variable.*example++ | example=0 | 1+(example++)=1 | example=1
+bool variable*variable that can only hold the value 1 or 0 denoting true or false.*bool example=true
+Generating random numbers*Uses time and mod function to generate a random number*Process: #include <ctime> | #include <cstdlib> | srand(time(NULL)) | int example=rand()%100 (returns # less than 100 and greater than 0)
+Logical Negation Operator (!)*Returns true if previously false*x=1 | x!=2 is true
+Logical Congunction Operator (&&)*Both boolean statements must be true to return true*x=1 | x!=2 && x==1 is true
+Logical Disjunction Operator (||)*One or the other boolean statement must be true to return true*x=1 | x==2 || x==1 is true
+Switch statements*A switch statement is passed a value and executes code depending on its value (remember to put break statements to prevent one case running into next)*switch(example){\n | case 1:{... break} | \n | default:{} | \n | }
+Conditional Expression (example>0 ? 1 : -1)*A compact if else statement.*(I like chocolate? true : false)
+exp(x)*raises e to the x power (cmath header)*exp(2)=e^2
+log(x)*returns natural log of x (cmath header).*log(e^2)=ln(e^2)=2
+log10(x)*returns log of x (cmath header).*log10(100)=2
+pow(a,b)*Returns a to the b power (cmath header).*pow(a,b)=a^b | pow (3,2)=9
+sqrt(x)*returns square root of x (cmath header).*sqrt(4)=2
+sin(radians)*returns sine of angle in radians (cmath header)*sin(pi/2)=1
+cos(radians)*returns cosine of angle in radians (cmath header)*cos(0)=1
+tan(radians)*returns tangent of angle in radians (cmath header)*tan(pi/4)=1
+asin(x)*returns angle in radians of inverse of sine (cmath header)*asin(1)=pi/2
+acos(x)*returns angle in radians of inverse of cosine (cmath header)*acos(1)=0
+atan(x)*returns angle in radians of inverse of tangent (cmath header)*atan(1)=pi/4
+ciel(x)*returns number rounded up to nearest int value, returned as  a double (cmath header)*ciel(2.01)=3
+floor(x)*returns number rounded down to nearest int value, returned as a double (cmath header)*floor(2.9)=2
+escape sequence (\b)*Backspace*abcd\b=abc
+escape sequence (\t)*Tab*\ta=	a
+escape sequence (\n)*Linefeed*Creates new line
+escape sequence (\f)*Formfeed*Forces printer to top of next page
+escape sequence (\r)*carriage return*abcd\re=ebcd
+escape sequence (\\)*Backslash*Creates one backslash (\)
+escape sequence (\")*Double Quote*creates double quotes (")
